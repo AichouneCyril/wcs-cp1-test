@@ -1,4 +1,4 @@
-const theaterSieges = require('./theaterSieges');
+import theaterSieges from './theaterSieges';
 
 test('Length should be 26', () => {
   expect(theaterSieges().length).toBe(26);

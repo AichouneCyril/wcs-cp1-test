@@ -1,4 +1,4 @@
-const findAdults = require('./findAdults');
+import findAdults from './findAdults';
 
 const persons = [
   { name: 'Mary Poppins', age: 32, sex: 'female' },

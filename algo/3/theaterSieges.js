@@ -16,9 +16,15 @@ Au final la liste devra ressembler à :
 */
 
 function theaterSieges() {
-  // Your code here !
+  const colonne= [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]
+  const siege= [];
+  for (let i =1 ;i <= 100; i++) {
+  siege.push(i);
 }
+const colonneSiege = colonne.map(num => siege.map(siege => `${num}-${siege}`));
+return colonneSiege;
+};
 
 console.log(theaterSieges());
 
-module.exports = theaterSieges;
+export default theaterSieges;

@@ -10,7 +10,20 @@ Autre rappel: Tu dois utiliser l'opérateur modulo (%) pour vérifier si un nomb
 */
 
 function isLeapYear(year) {
-  // TODO: Your code here
-}
+if ((year % 4 ===0) && (year % 100 !==0)) {
 
-module.exports = isLeapYear;
+return true;
+}
+else {
+  return false;
+}
+};
+
+console.log (isLeapYear(1900));
+console.log (isLeapYear(2000));
+console.log (isLeapYear(2004));
+console.log (isLeapYear(2019));
+console.log (isLeapYear(2020));
+
+
+export default isLeapYear;

@@ -1,4 +1,4 @@
-const isLeapYear = require('./isLeapYear');
+import isLeapYear from './isLeapYear';
 
 test('1900 should return false', () => {
   expect(isLeapYear(1900)).toBe(false);
