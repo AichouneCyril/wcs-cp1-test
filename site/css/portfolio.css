@@ -80,3 +80,87 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.disabled {
+  opacity: 50%;
+}
+
+@media screen and (min-width: 700px) {
+  .menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .introduction {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+  }
+
+  .theDevelloper {
+
+    display: grid;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-around;
+
+  }
+
+  .theDevelloper span {
+    padding-bottom: 1em;;
+  }
+  .banner {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .banner-img {
+    height: 100%;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .contents {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+
+@media screen and (max-width: 700px) {
+
+  .desktop{
+    display: none;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
