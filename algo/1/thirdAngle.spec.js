@@ -8,5 +8,5 @@ test('20, 80 should return 80', () => {
   expect(thirdAngle(20, 80)).toBe(80);
 });
 
-console.log(thirdAngle);
+
 
